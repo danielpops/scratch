@@ -1,0 +1,4 @@
+*.swp
+.idea/
+venv*/
+virtualenv*/

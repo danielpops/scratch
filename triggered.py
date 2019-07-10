@@ -45,7 +45,7 @@ def main():
         frames.append(triggered)
 
     frames[0].save('{0}.triggered.gif'.format(args.image), format='GIF', disposal=disp, append_images=frames[1:],
-                   transparency=trans, save_all=True, duration=50, loop=0)
+                   transparency=trans, palette=palette, save_all=True, duration=50, loop=0)
 
 if __name__ == '__main__':
     main()
